@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% block head %}
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+        {% endblock %}
+    </head>
+    <body>
+        <header>Witaj na mojej stronie!</header>
+        <br>
+        <img src="https://img.joemonster.org/i/2018/12/cat_abduction_03-20181228103338.jpg" title="latające koty">
+        <br>
+        <div id="content">{% block content %}{% endblock %}</div>
+    </body>
+</html>

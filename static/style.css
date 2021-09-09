@@ -1,0 +1,17 @@
+header{
+    font-size: 40px;
+    color:green;
+    background-color:yellow;
+    font-weight: bold;
+}
+p{
+    font-size: 20px;
+}
+.first{
+    font-size: 30px;
+    color: orange;
+}
+.second{
+    font-size: 25px;
+    color: blue
+}
